@@ -9,7 +9,7 @@ using namespace std;
 Nomes dos integrantes do grupo:
 
 	1 - Leonardo Martins Menegalli
-	2 - Jo„o Vitor da Silva Stefani
+	2 - Jo√£o Vitor da Silva Stefani
 	3 - Vitoria Vieira da Silva
 	
 */
@@ -21,11 +21,11 @@ int main()
 	int escolha1, escolha2;
 	string nome_time1, cat_time1;
 	string nome_time2, cat_time2;
-	string nome_j1, nome_j2, nome_j3, nome_j4, nome_j5, nome_j6;
-	int dnasc_j1, dnasc_j2, dnasc_j3, dnasc_j4, dnasc_j5, dnasc_j6;
-	string nacio_j1, nacio_j2, nacio_j3, nacio_j4, nacio_j5, nacio_j6;
-	string cat_j1, cat_j2, cat_j3, cat_j4, cat_j5, cat_j6;
-	double sal_j1, sal_j2, sal_j3, sal_j4, sal_j5, sal_j6;
+	string nome_j1, nome_j2, nome_j3;
+	int dnasc_j1, dnasc_j2, dnasc_j3;
+	string nacio_j1, nacio_j2, nacio_j3;
+	string cat_j1, cat_j2, cat_j3;
+	double sal_j1, sal_j2, sal_j3;
 	
 	cout << "Digite o nome da empresa: ";
 	cin >> empresa1;
@@ -170,7 +170,7 @@ int main()
 	j3.tempoAposentadoria();
 	j3.getSalarioLiquido();
 	
-	//jogadores prÈ-definidos para o time 2
+	//jogadores pr√©-definidos para o time 2
 	
 	Jogador j4("Taison", 1988, "Brasileiro", "Profissional", 760563.00);
 	Jogador j5("Juan", 2003, "Colombiano", "Base", 4005.00);
@@ -216,4 +216,3 @@ int main()
 	
 	return 0;
 }
-
