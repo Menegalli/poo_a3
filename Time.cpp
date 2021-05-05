@@ -18,10 +18,6 @@ void Time::adicionaJogador(string nome, int dnasc, string nacio, string cat, dou
 	conjuntoDeJogadores.push_back(Jogador(nome, dnasc, nacio, cat, sb));
 }
 
-void Time::adicionaJogadores(int id){
-	jg.push_back(id);
-}
-
 void Time::relatorioGeral()
 {
 	cout << "\n//=======================================================//\n" << endl;
@@ -34,14 +30,6 @@ void Time::relatorioGeral()
 		conjuntoDeJogadores[i].imprimir();
 	}
 	cout << "//=======================================================//" << endl;
-}
-
-void Time::relatorioTeste()
-{
-	 for (int i=0; i< jg.size(); i++)
-    {
-        cout << jg[i] << endl;
-    }
 }
 
 void Time::relatorioFinanceiro()
