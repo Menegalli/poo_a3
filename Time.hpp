@@ -14,9 +14,7 @@ public:
 	Time(string nome, string categoria);
 	
 	void adicionaJogador(string nome, int dnasc, string nacio, string cat, double sb);
-	void adicionaJogadores(int id);
 	void relatorioGeral();
-	void relatorioTeste();
 	void relatorioFinanceiro();
 	void getJogador(int id);
 	
@@ -40,7 +38,6 @@ private:
 	string categoria;
 	
 	vector <Jogador> conjuntoDeJogadores;
-	vector<int> jg;
 
 };
 
