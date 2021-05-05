@@ -53,7 +53,6 @@ void Empresa::listaDeJogadores()
 void Empresa::relatorioFinanceiro()
 {
 	cout << "=======================================================" << endl;
-	cout << "tamanho: " << times[1].getConjuntoDeJogadores().size();
 	for(int i=0; i < times.size(); i++)
 	{
 		cout << "\n\t Time: " << times[i].getNome() << endl;
@@ -101,5 +100,4 @@ void Empresa::setNome(string n)
 {
 	nome = n;
 }
-
 
